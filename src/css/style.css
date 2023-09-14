@@ -70,7 +70,7 @@ body main .price-section .price {
     gap: 13px;
     margin-bottom: 7px;
 }
-body main .price-section .price h1 {
+body main .price-section .price h2 {
     font-size: 31px;
     font-weight: 700;
     color: #FFF;
