@@ -3,7 +3,7 @@
 Esta é uma solução para o [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). 
 Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-## Layout do projeto em tela de desktop/Notebook/Tablet/Mobile.
+## Layout do projeto em tela de Desktop/Notebook/Tablet/Mobile.
 
 <div align="center">
 
