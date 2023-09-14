@@ -58,7 +58,7 @@ body main .price-section {
     border-radius: 0 0 0 8px;
     padding: 40px;
 }
-body main .price-section h3, body main .info-section h2 {
+body main .price-section h3, body main .info-section h1 {
     font-weight: 700;
     letter-spacing: -.59px;
     margin-bottom: 18px;
@@ -93,6 +93,10 @@ body main .price-section .div-button {
 body main .price-section .div-button button {
     width: 237px;
     height: 48px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    color: var(--Light-Gray);
     border: none;
     border-radius: 5px;
     background-color: var(--Bright-Yellow);
@@ -100,10 +104,7 @@ body main .price-section .div-button button {
     
 }
 body main .price-section .div-button button h1 {
-    font-size: 15px;
-    font-weight: 700;
-    font-family: 'Karla', sans-serif;
-    color: var(--Light-Gray);
+
 }
 body main .info-section {
     grid-area: info-section;
@@ -111,7 +112,7 @@ body main .info-section {
     border-radius: 0 0 8px 0;
     padding: 40px 75px 40px 40px;
 }
-body main .info-section h2 {
+body main .info-section h1 {
     font-size: 1.17em;
 }
 body main .info-section p {
