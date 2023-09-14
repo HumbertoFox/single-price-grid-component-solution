@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+    body {
+        width: 375px;
+    }
+    body main {
+        grid: "main-section" 268px
+              "price-section" 228px
+              "info-section" 228px / 312px;
+    }
+    body main .main-section {
+        border-radius: 5px 5px 0 0;
+        padding: 29px 25px;
+    }
+    body main .main-section h2 {
+        font-size: 20px;
+        letter-spacing: -.2px;
+        margin-bottom: 24.5px;
+    }
+    body main .main-section h3 {
+        font-size: 15.5px;
+        letter-spacing: -.4px;
+        line-height: 20.1px;
+        margin-bottom: 17px;
+    }
+    body main .main-section p {
+        font-size: 14px;
+    }
+    body main .price-section {
+        border-radius: 0;
+        padding: 25px 25px;
+    }
+    body main .price-section h3 {
+        margin-bottom: 17px;
+    }
+    body main .price-section .div-button  button {
+        width: 100%;
+    }
+    body main .info-section {
+        border-radius: 0 0 5px 5px;
+        padding: 24px 85px 0 25px;
+    }
+}

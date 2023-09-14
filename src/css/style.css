@@ -1,0 +1,124 @@
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Light-Cyan: hsl(179, 47%, 52%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Bright-Yellow: hsl(71, 73%, 62%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    min-height: 100vh;
+    background-color: var(--Light-Gray);
+}
+body main {
+    display: grid;
+    grid: "main-section main-section" minmax(109px, 218px)
+          "price-section info-section" minmax(129px, 258px) / minmax(159px, 318px) minmax(159px, 318px);
+    font-family: 'Karla', sans-serif;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.05);
+    border-radius: 8px;
+}
+body main .main-section {
+    grid-area: main-section;
+    background-color: #FFF;
+    border-radius: 8px 8px 0 0;
+    padding: 42px 40px;
+}
+body main .main-section h2 {
+    font-weight: 700;
+    color: var(--Cyan);
+    letter-spacing: -.29px;
+    margin-bottom: 24px;
+}
+body main .main-section h3 {
+    font-weight: 700;
+    color: var(--Bright-Yellow);
+    letter-spacing: -.59px;
+    margin-bottom: 10px;
+}
+body main .main-section p {
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    line-height: 26px;
+    letter-spacing: -.14px;
+}
+body main .price-section {
+    grid-area: price-section;
+    background-color: var(--Cyan);
+    border-radius: 0 0 0 8px;
+    padding: 40px;
+}
+body main .price-section h3, body main .info-section h3 {
+    font-weight: 700;
+    letter-spacing: -.59px;
+    margin-bottom: 18px;
+    color: #FFF;
+}
+body main .price-section .price {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 7px;
+}
+body main .price-section .price h1 {
+    font-size: 31px;
+    font-weight: 700;
+    color: #FFF;
+}
+body main .price-section .price span {
+    color: var(--Light-Gray);
+    font-weight: 400;
+}
+body main .price-section p{
+    font-weight: 400;
+    letter-spacing: -.14px;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+body main .price-section .div-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main .price-section .div-button button {
+    width: 237px;
+    height: 48px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--Light-Gray);
+    border-radius: 5px;
+    background-color: var(--Bright-Yellow);
+    font-family: 'Karla', sans-serif;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+body main .info-section {
+    grid-area: info-section;
+    background-color: var(--Light-Cyan);
+    border-radius: 0 0 8px 0;
+    padding: 40px 75px 40px 40px;
+}
+body main .info-section p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.14px;
+    color: var(--Light-Gray);
+}
+body footer .attribution {
+    font-size: 11px; text-align: center;
+}
+body footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}
